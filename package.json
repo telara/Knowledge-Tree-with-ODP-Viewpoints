@@ -1,0 +1,14 @@
+{
+  "name": "@knowledge-web/science-viewpoint-to-all",
+  "main": "f3b4397f12555d4a@591.js",
+  "version": "591.0.0",
+  "homepage": "https://observablehq.com/@knowledge-web/science-viewpoint-to-all",
+  "author": {
+    "name": "knowledge web",
+    "url": "https://observablehq.com/@knowledge-web"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
