@@ -968,7 +968,7 @@ export default function define(runtime, observer) {
   const main = runtime.module();
   function toString() { return this.url; }
   const fileAttachments = new Map([
-    ["LTER-LIFE RM Interview@3.xlsx", {url: new URL("./files/e850021d798300003352fc8b46f7eded2fcab6dcdd3c01e8f99a9e88d5f4d7c201e6a8ae7d2891740c7fac7f348a2e84a853491ce585d8c82f98c4c5d371f579.xlsx", import.meta.url), mimeType: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", toString}]
+    ["LTER-LIFE RM Interview@3.xlsx", {url: new URL("./files/rawdata.xlsx", import.meta.url), mimeType: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", toString}]
   ]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], _1);

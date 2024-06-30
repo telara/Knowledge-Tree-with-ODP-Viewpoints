@@ -20,7 +20,9 @@ npm -v # should print `10.7.0`
 
 ### These instructions were up-to-date on 17 June 2024.
 
-## Site running on Cloud Editor Platform, follow this link:
+You can also install the Node.js runtime environment and Node Package Manager using `brew install npm`
+
+## For the site running on Cloud Editor Platform, follow this link:
 https://observablehq.com/@knowledge-web/science-viewpoint-to-all@591
 
 View this notebook in your browser by running a web server in this folder. For
